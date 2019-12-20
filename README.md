@@ -27,8 +27,8 @@ This project was put together using create-react-app (CRA). You will not need to
 - [x] Clone your OWN version of the repository in your terminal
 - [x] CD into the project base directory `cd lambda-calculator`
 - [x] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -43,10 +43,10 @@ Follow these steps for completing your project.
 
 **A job just came down from the Big Boss!**
 
-- [ ] A prospective client has tasked you with building a calculator app. They need you to build the app using the file structure and component wire frame provided.
-- [ ] Get all necessary files connected and either taking in or sending out data.
-- [ ] The design file should be followed as close as possible but doesn't have to be pixel perfect - budget your time wisely.
-- [ ] The client will provide their own proprietary calculator software so your app only needs basic functionality, enough for a demo.
+- [x] A prospective client has tasked you with building a calculator app. They need you to build the app using the file structure and component wire frame provided.
+- [x] Get all necessary files connected and either taking in or sending out data.
+- [x] The design file should be followed as close as possible but doesn't have to be pixel perfect - budget your time wisely.
+- [x] The client will provide their own proprietary calculator software so your app only needs basic functionality, enough for a demo.
 
 ## Directions
 
@@ -54,7 +54,7 @@ Using the design file, build out your User Interface. Before you start, look thr
 
 **STEP 1**
 
-- [ ] You have been given a Data.js file that contains some arrays.
+- [x] You have been given a Data.js file that contains some arrays.
 - [ ] Find a way to bring (import) the data into the necessary files, but do not change the data.
 - [ ] Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
 
