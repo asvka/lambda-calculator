@@ -55,8 +55,8 @@ Using the design file, build out your User Interface. Before you start, look thr
 **STEP 1**
 
 - [x] You have been given a Data.js file that contains some arrays.
-- [ ] Find a way to bring (import) the data into the necessary files, but do not change the data.
-- [ ] Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
+- [x] Find a way to bring (import) the data into the necessary files, but do not change the data.
+- [x] Data should be imported into the wrapper components (`Numbers`, `Operators`, and `Specials`)
 
 **Step 2**
 Add the data to state like this:
@@ -72,8 +72,8 @@ const [numberState, setNumberState] = useState(numbers);
 
 **Step 3**
 
-- [ ] Map over the data and dynamically render components for each piece of data in the arrays.
-- [ ] You will need to import the component that you'll render in the map function.
+- [x] Map over the data and dynamically render components for each piece of data in the arrays.
+- [x] You will need to import the component that you'll render in the map function.
 
 **STEP 4**
 
@@ -121,6 +121,6 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 
 - [ ] STEP 5 from above
 - [ ] Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
-- [ ] Finish styling all of the buttons and get your calculator to closely resemble the given design spec. 
+- [ ] Finish styling all of the buttons and get your calculator to closely resemble the given design spec.
 - [ ] Add some icons to improve the operator characters aesthetics. Research any icon/font library and implement it into your project.
 - [ ] Convert your CSS styling to use Sass/Scss

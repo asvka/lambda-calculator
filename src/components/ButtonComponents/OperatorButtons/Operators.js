@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { operators } from '../../../data';
-import { OperatorButton } from './OperatorButton';
+import OperatorButton from './OperatorButton.js';
 
 const Operators = () => {
-  const [ops] = useState(operators);
+  const [ops, setOps] = useState(operators);
   return (
     <div className = 'operators'>
       {
