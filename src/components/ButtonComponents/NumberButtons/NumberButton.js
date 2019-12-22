@@ -1,7 +1,6 @@
 import React from "react";
 
-const NumberButton = (props) => {
-  console.log(props, 'number button props');
+const NumberButton = (props) => { 
   return (
     <React.Fragment>
       <button>

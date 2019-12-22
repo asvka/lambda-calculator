@@ -1,7 +1,6 @@
 import React from "react";
 
 const OperatorButton = (props) => {
-console.log(props, 'operator button props');
   return (
     <React.Fragment>
       <button>
