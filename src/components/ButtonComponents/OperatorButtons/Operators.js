@@ -3,7 +3,7 @@ import { operators } from '../../../data';
 import OperatorButton from './OperatorButton.js';
 
 const Operators = () => {
-  const [ops, setOps] = useState(operators);
+  const [ops] = useState(operators);
   return (
     <div className = 'operators'>
       {

@@ -1,13 +1,13 @@
 import React from "react";
 
 import Numbers from './components/ButtonComponents/NumberButtons/Numbers.js';
-import NumberButton from './components/ButtonComponents/NumberButtons/NumberButton.js';
+// import NumberButton from './components/ButtonComponents/NumberButtons/NumberButton.js';
 
 import Operators from './components/ButtonComponents/OperatorButtons/Operators.js';
-import OperatorButton from './components/ButtonComponents/OperatorButtons/OperatorButton.js';
+// import OperatorButton from './components/ButtonComponents/OperatorButtons/OperatorButton.js';
 
 import Specials from './components/ButtonComponents/SpecialButtons/Specials.js';
-import SpecialButton from './components/ButtonComponents/SpecialButtons/SpecialButton.js';
+// import SpecialButton from './components/ButtonComponents/SpecialButtons/SpecialButton.js';
 
 import Display from './components/DisplayComponents/Display.js';
 // STEP 4 - import the button and display components
@@ -25,14 +25,34 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      <Numbers/><Specials /><Operators />
-      <div className="App">
-        {
-
-
-        /* STEP 4 - Render your components here and be sure to properly import/export all files */}
+      <div className="displayContainer">
+        <Display />
       </div>
+      {/* <div className="containerContainer">
+          <div className="specialsContainer">
+            <Specials />
+          </div>
 
+          <div className="operatorsContainer">
+            <Operators/>
+          </div>
+
+      <div className="numbersContainer">
+        <Numbers/>
+      </div> */}
+    {/* </div> */}
+      <div className="App">
+        {/* <div className = "containerContainer"> */}
+          <div className="specialsContainer">
+            <Specials/>
+            </div>
+          <div className="operatorsContainer">
+            <Operators/>
+            </div>
+          <div className="numbersContainer">
+            <Numbers />
+            </div>
+      </div>
     </div>
   );
 }

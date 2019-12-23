@@ -3,7 +3,7 @@ import { numbers } from '../../../data';
 import NumberButton from './NumberButton.js';
 
 const Numbers = () => {
-  const [nums, setNums] = useState(numbers);
+  const [nums] = useState(numbers);
   return (
     <div className = 'numbers'>
       {
