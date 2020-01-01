@@ -14,7 +14,7 @@ import Display from './components/DisplayComponents/Display.js';
 // Don't forget to import any extra css/scss files you build into the correct com ponent
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
-import "./App.css";
+import "./App.scss";
 function App() {
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
   // Once the state hooks are in place write some functions to hold data in state and update that data depending on what it needs to be doing
@@ -26,32 +26,22 @@ function App() {
     <div className="container">
       <Logo />
       <div className="displayContainer">
-        <Display />
+      <Display />
       </div>
-      {/* <div className="containerContainer">
-          <div className="specialsContainer">
+      <section className="body">
+          <div className="column-1">
             <Specials />
+            <div className="num-section">
+              <Numbers />
+            </div>
           </div>
 
-          <div className="operatorsContainer">
+          <div className="column-2">
             <Operators/>
           </div>
 
-      <div className="numbersContainer">
-        <Numbers/>
-      </div> */}
-    {/* </div> */}
+      </section>
       <div className="App">
-        {/* <div className = "containerContainer"> */}
-          <div className="specialsContainer">
-            <Specials/>
-            </div>
-          <div className="operatorsContainer">
-            <Operators/>
-            </div>
-          <div className="numbersContainer">
-            <Numbers />
-            </div>
       </div>
     </div>
   );

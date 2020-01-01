@@ -4,7 +4,7 @@ const OperatorButton = (props) => {
   console.log(props);
   return (
     <React.Fragment>
-      <button>
+      <button className="operator-button">
         {props.operator.char}
       </button>
     </React.Fragment>

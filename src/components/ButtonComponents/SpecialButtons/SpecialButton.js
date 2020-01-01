@@ -3,7 +3,7 @@ import React from "react";
 const SpecialButton = (props) => {
   return (
     <React.Fragment>
-      <button>
+      <button className="spec-button">
         {props.special}
       </button>
     </React.Fragment>

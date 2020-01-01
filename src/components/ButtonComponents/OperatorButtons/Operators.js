@@ -5,12 +5,12 @@ import OperatorButton from './OperatorButton.js';
 const Operators = () => {
   const [ops] = useState(operators);
   return (
-    <div className = 'operators'>
+    <>
       {
         ops.map((operator, i) => {
           return <OperatorButton key = {i} operator = {operator} />
         })}
-    </div>
+    </>
   );
 };
 export default Operators;
